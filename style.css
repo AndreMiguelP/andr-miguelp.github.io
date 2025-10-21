@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black20;
+    color: rgba(red, green, blue, alpha);
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+}
+.home-content h1{
+    font-size: 3rem;
+    color:white ;
+    margin-bottom: 20px;
+}
