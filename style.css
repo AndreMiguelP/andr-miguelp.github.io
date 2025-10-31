@@ -1,22 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    background-color: black20;
-    color: rgba(red, green, blue, alpha);
+
+body {
+    background-color: black; 
+    color: white; 
 }
-.home{
+.home {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 80px 10%;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
-.home-content h1{
+.home-content h1 {
     font-size: 3rem;
-    color:white ;
+    color: white;
     margin-bottom: 20px;
+}
+.projetos {
+    padding: 80px 10%; 
+    background-color: #111; 
+    text-align: center; 
+}
+
+.titulo-secao {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.titulo-secao span {
+    color: #007BFF; 
+}
+.projetos-container {
+    display: flex;         
+    justify-content: center; 
+    align-items: stretch;  
+    flex-wrap: wrap;     
+    gap: 2rem;             
+}
+.projeto-card {
+    flex-basis: 320px; 
+    flex-grow: 1;      
 }
