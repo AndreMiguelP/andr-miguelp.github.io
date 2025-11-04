@@ -50,7 +50,7 @@ body {
 .carousel img{
     width: 90px;
     height: 600px;
-    margin: 51px;
+    margin: 50px;
     border: 4px solid blue;
     border-radius: 16px;
 }
